@@ -44,6 +44,12 @@ public class CalculatorTest {
     }
     
     
+    @Test
+    public void calculatorExists() {
+        assertNotNull(calc);
+    }
+    
+  
     // long add(int a, int b) -metodin testit
     
     @Test
